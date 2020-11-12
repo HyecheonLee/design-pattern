@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="singleton" />
         <module name="factory" />
+        <module name="factory-method" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="factory" target="1.8" />
+      <module name="factory-method" target="1.8" />
       <module name="singleton" target="1.8" />
     </bytecodeTargetLevel>
   </component>
