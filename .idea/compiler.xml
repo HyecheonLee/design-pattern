@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="singleton" />
+        <module name="builder" />
         <module name="factory" />
         <module name="factory-method" />
         <module name="abstract-factory" />
@@ -14,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="abstract-factory" target="1.8" />
+      <module name="builder" target="11" />
       <module name="factory" target="1.8" />
       <module name="factory-method" target="1.8" />
       <module name="singleton" target="1.8" />
