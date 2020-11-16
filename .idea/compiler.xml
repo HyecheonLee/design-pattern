@@ -10,6 +10,7 @@
         <module name="builder" />
         <module name="factory" />
         <module name="factory-method" />
+        <module name="prototype" />
         <module name="abstract-factory" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="builder" target="11" />
       <module name="factory" target="1.8" />
       <module name="factory-method" target="1.8" />
+      <module name="prototype" target="11" />
       <module name="singleton" target="1.8" />
     </bytecodeTargetLevel>
   </component>
