@@ -38,7 +38,7 @@
 > 코드 내에서 클래스 이름을 직접 지정해 객체를 생성하면 강력한 결합 관계가 발생  
 > 강력한 객체의 결합 코드는 향후 유연한 코드 확장을 방해하고 변경과 수정을 어렵게 만드는 원인
 ```java
-public class Hello {
+public class ex01.Hello {
     public String greeting() {
         // 객체를 직접 생성하는 코드.
         final Korean korean = new Korean();
@@ -59,10 +59,10 @@ public class Hello {
 > 복합 객체는 하나의 객체가 다른 객체의 정보를 가진 구조  
 > 종속적이고 연관 관계를 갖는다는 특성
 ```java
-public class Hello {
+public class ex01.Hello {
     private final Korean korean;
 
-    public Hello(Korean korean) {
+    public ex01.Hello(Korean korean) {
         this.korean = korean;
     }
 
@@ -137,9 +137,9 @@ public class Factory {
 #### 메서드
 > 별도의 팩토리 클래스를 생성하지 않고 자기자신의 클래스에 객체 생성을 처리할 수 있느 전용 메서드를 추가하는 것
 ```java
-public class Hello {
+public class ex01.Hello {
     public String greeting() {
-        final Language language = Hello.factory();
+        final Language language = ex01.Hello.factory();
         return language.text();
     }
     // 단순 팩토리
