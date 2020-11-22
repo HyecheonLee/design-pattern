@@ -25,5 +25,4 @@ public class Composite extends Component {
     public Boolean isNode() {
         return !children.isEmpty();
     }
-
 }

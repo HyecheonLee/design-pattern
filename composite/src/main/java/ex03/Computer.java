@@ -1,4 +1,4 @@
-package ex02;
+package ex03;
 
 /**
  * @author hyecheon
@@ -13,10 +13,13 @@ public class Computer {
     public void setMonitor(Monitor monitor) {
         this.monitor = monitor;
     }
+
     public void setDisk(Disk disk) {
         this.disk = disk;
     }
+
     public void setMemory(Memory memory) {
         this.memory = memory;
     }
+
 }

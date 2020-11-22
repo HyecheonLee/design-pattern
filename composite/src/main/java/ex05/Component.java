@@ -4,7 +4,7 @@ package ex05;
  * @author hyecheon
  * @email rainbow880616@gmail.com
  */
-public class Component {
+abstract public class Component {
     private String name;
 
     public String getName() {
