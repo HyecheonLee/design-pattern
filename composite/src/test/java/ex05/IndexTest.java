@@ -2,8 +2,6 @@ package ex05;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.Map;
-
 /**
  * @author hyecheon
  * @email rainbow880616@gmail.com
@@ -35,7 +33,8 @@ class IndexTest {
         hojin.addNode(img4);
         users.addNode(jiny);
         root.addNode(temp);
-        tree(root);
+
+        root.print();
     }
 
     @Test
@@ -65,25 +64,7 @@ class IndexTest {
         root.addNode(temp);
 
         users.removeNode(hojin);
-        tree(root);
-    }
 
-    public void tree(Composite composite) {
-        final Map<String, Component> children = composite.children;
-        children.forEach((key, value) -> {
-            if (value instanceof Composite) {
-                System.out.print("Folder = " + key);
-                if (((Composite) value).isNode()) {
-                    System.out.println();
-                    tree((Composite) value);
-                } else {
-                    System.out.println("... 노드 없음");
-                }
-            } else if (value instanceof Leaf) {
-                System.out.println("File : " + key);
-            } else {
-                System.out.println("??");
-            }
-        });
+        root.print();
     }
 }
