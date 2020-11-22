@@ -10,6 +10,7 @@
         <module name="factory" />
         <module name="factory-method" />
         <module name="adapter" />
+        <module name="composite" />
         <module name="builder" />
         <module name="bridge" />
         <module name="prototype" />
@@ -21,6 +22,7 @@
       <module name="adapter" target="11" />
       <module name="bridge" target="11" />
       <module name="builder" target="11" />
+      <module name="composite" target="11" />
       <module name="factory" target="1.8" />
       <module name="factory-method" target="1.8" />
       <module name="prototype" target="11" />
