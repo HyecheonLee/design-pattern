@@ -13,6 +13,7 @@
         <module name="adapter" />
         <module name="composite" />
         <module name="builder" />
+        <module name="facade" />
         <module name="bridge" />
         <module name="prototype" />
         <module name="abstract-factory" />
@@ -25,6 +26,7 @@
       <module name="builder" target="11" />
       <module name="composite" target="11" />
       <module name="decorator" target="11" />
+      <module name="facade" target="11" />
       <module name="factory" target="1.8" />
       <module name="factory-method" target="1.8" />
       <module name="prototype" target="11" />
