@@ -16,6 +16,7 @@
         <module name="facade" />
         <module name="bridge" />
         <module name="prototype" />
+        <module name="flyweight" />
         <module name="abstract-factory" />
       </profile>
     </annotationProcessing>
@@ -29,6 +30,7 @@
       <module name="facade" target="11" />
       <module name="factory" target="1.8" />
       <module name="factory-method" target="1.8" />
+      <module name="flyweight" target="11" />
       <module name="prototype" target="11" />
       <module name="singleton" target="1.8" />
     </bytecodeTargetLevel>
