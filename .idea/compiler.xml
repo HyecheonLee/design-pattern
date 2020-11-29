@@ -8,16 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="singleton" />
         <module name="factory" />
-        <module name="factory-method" />
         <module name="decorator" />
         <module name="adapter" />
-        <module name="composite" />
-        <module name="builder" />
         <module name="facade" />
-        <module name="bridge" />
         <module name="prototype" />
         <module name="flyweight" />
         <module name="abstract-factory" />
+        <module name="factory-method" />
+        <module name="proxy" />
+        <module name="composite" />
+        <module name="builder" />
+        <module name="bridge" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +33,7 @@
       <module name="factory-method" target="1.8" />
       <module name="flyweight" target="11" />
       <module name="prototype" target="11" />
+      <module name="proxy" target="11" />
       <module name="singleton" target="1.8" />
     </bytecodeTargetLevel>
   </component>
