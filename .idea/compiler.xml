@@ -13,6 +13,7 @@
         <module name="facade" />
         <module name="prototype" />
         <module name="flyweight" />
+        <module name="command" />
         <module name="abstract-factory" />
         <module name="factory-method" />
         <module name="proxy" />
@@ -26,6 +27,7 @@
       <module name="adapter" target="11" />
       <module name="bridge" target="11" />
       <module name="builder" target="11" />
+      <module name="command" target="11" />
       <module name="composite" target="11" />
       <module name="decorator" target="11" />
       <module name="facade" target="11" />
